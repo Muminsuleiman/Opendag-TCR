@@ -1,0 +1,109 @@
+
+/* CSS voor contact */
+
+
+.contact-title1 {
+
+    font-size: 25px;
+    margin: 121px 815px -94px 47px;;
+    color: #FFF;
+    font-family: 'Bebas Neue', sans-serif;
+
+
+}
+
+.contact-title {
+    font-family: 'Barlow', sans-serif ;
+    font-size: 25px;
+    margin: 121px 815px -94px 47px;;
+    color: #FFF;
+
+
+  }
+
+  form {
+    max-width: 516px;
+    font-family:'Bebas Neue', sans-serif;
+    margin: -119px 10px 10px 1187px;
+    background-color: #006345;
+    padding: 22px;
+    border-radius: 62px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .naam {
+    margin: 32px 10px 10px 40px;
+    font-size: 20px;
+
+
+  }
+.email {
+    margin: -19px 10px 10px 40px;
+    font-size: 20px;
+
+
+}
+
+.bericht {
+    margin: -21px 10px 10px 39px;
+    font-size: 20px;
+
+}
+
+
+
+label {
+    display: block;
+    font-weight: bold;
+    color: white;
+}
+
+input[type="text"]{
+
+    width: 410px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    margin: 10px 10px 10px 37px;
+
+}
+
+
+
+input[type="email"] {
+
+    width: 411px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    margin: 2px 10px 10px 36px;
+
+}
+textarea {
+    width: 413px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    margin: 0px 10px 10px 34px;
+}
+
+input[type="submit"] {
+    margin: -17px 17px 28px 32px;
+    width: 99px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+

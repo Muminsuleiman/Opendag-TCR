@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="chat.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Techniek College Rotterdam Open Dag</title>
+</head>
+<body id="Home">
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
+    <header>
+        <nav>
+            <img src="img/logo-techniek-college.png" class="tcr-logo">
+            <a href="#Home">Home</a>
+            <a href="#opendag">Open Dag</a>
+            <a href="vragen.html">Quiz</a>
+            <a href="talenttree.html">Talenttree</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://www.techniekcollegerotterdam.nl/aanmelden" target="_blank" class="aanmelden">Aanmelden</a>
+        </nav>
+    </header>
+    <section class="banner-card">
+
+        <div class="banner-text">
+        <h1 class="Od">Welkom bij het <br>
+            Techniek College <br>Rotterdam</h1>
+            <img src="Img/techniek_college_rotterdam_cover.jfif" class="tcr-img">
+        </section>
+    <br>
+    <div class="container">
+        <div class="launch-time">
+            <div>
+                <p id="days">00</p>
+                <span>Days</span>
+            </div>
+            <div>
+                <p id="hours">00</p>
+                <span>Hours</span>
+            </div>
+            <div>
+                <p id="minutes">00</p>
+                <span>Minutes</span>
+            </div>
+            <div>
+                <p id="seconds">00</p>
+                <span>Seconds</span>
+            </div>
+        </div>
+        <section class="opendag-titel" id="opendag">
+            <h1>Open dag</h1>
+        </section>
+    <h3 class="Introductie">
+        Ben jij op zoek naar een goede en leuke school die veel mogelijkheden biedt,
+         met bol- en bbl-opleidingen als optie en op goed bereikbare locaties? Kom dan bij ons langs en 
+         Maak kennis met de verschillende opleidingen, ontmoet studenten en docenten die je alles zullen vertellen over hun ervaring op het 
+         Techniek College Rotterdam en binnen hun opleiding. Tijdens de open dag heb je natuurlijk ook de mogelijkheid om een kijkje te nemen
+        in onze lokalen en de kantine.</h3>
+
+        <h1 class="kalender "> Open dag Kalender </h1> 
+        <p class="vrijdag"> Vrijdag 26 Januari 2024 </p> 
+        <p class="tijd">15:00 - 20:00 uur, Prins Alexanderlaan 55, Rotterdam</p> <br>
+        <p class="zaterdag">Zaterdag 27 Januari 2024</p>
+        <p class="tijd">10:00 - 14:00 uur, Prins Alexanderlaan 55, Rotterdam</p> 
+        
+        
+        <h1 class="loca"> Onze locaties</h1>
+        <div class="gebouwtcr">
+        <div class="plaats">
+        <p>- Prins Alexanderlaan 55</p>
+        <p>- Jan Ligthartstraat 250</p>
+        <p>- RDM-kade</p>
+        <p>- Scheepsbouwweg 1, 15 en 21</p>
+        <p>- Schiedamseweg 245 </p>
+    </div>
+        <img src="Img/gebouw-Large.jpg" alt="Gebouw van het Techniek College Rotterdam">
+        </div>
+        <script>
+            var countDownDate = new Date ("Jan 26, 2024 15:00:00").getTime();
+            var x = setInterval (function(){
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("days").innerHTML = days;
+                document.getElementById("hours").innerHTML = hours;
+                document.getElementById("minutes").innerHTML = minutes;
+                document.getElementById("seconds").innerHTML = seconds;
+
+            },1000);
+        </script>
+  <div class="chat-bar-collapsible">
+    <button id="chat-button" type="button" class="collapsible">Chat met ons!
+        <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+    </button>
+    
+    <div class="content">
+    <div class="full-chat-block">
+    <!-- Message Container -->
+    <div class="outer-container">
+    <div class="chat-container">
+    <!-- Messages -->
+    <div id="chatbox">
+    <p id="botStarterMessage" class="botText"><span>Laden...</span></p>
+    </div>
+    
+    <!-- User input box -->
+    <div class="chat-bar-input-block">
+    <div id="userInput">
+    <input id="textInput" class="input-box" type="text" name="msg"
+    placeholder="Tap 'Enter' to send a message">
+    </p>
+    </div>
+
+        
+    </div>
+
+    <div id="chat-bar-bottom">
+     <p></p>
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+</body>
+
+</html>

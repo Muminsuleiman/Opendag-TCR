@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&display=swap');
+
+.navcont{
+    display: flex;
+}
+
+body{
+    background-color: #014631;
+    margin: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+nav{
+    display: flex;
+    background-color: #006345;
+    align-items: center;
+    width: 100%;
+    
+}
+.countdown {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    display: inline-flex;
+    padding: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+
+
+.Od{
+    font-family: 'tcr';
+}
+
+.aanmelden{
+    display: flex;
+    background-color: #DBFD4A;
+    padding: 15px 30px;
+    color: #014631;
+    margin-left: 500px;
+    border-radius: 8px;
+}
+ 
+.aanmelden:hover{
+    transition: 0.3s;
+    color: #014631;
+}
+a:hover{
+    transition: 0.3s;
+    color: #DBFD4A;
+}
+
+    
+.tcr-logo{
+    display: flex;
+    background-color: white;
+    height: 90px;
+    margin-left: 16px;
+    
+}
+
+.int{
+    font-size: 17px;
+}
+
+
+
+
+h1{
+    color: white;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 100px;
+    font-family: 'tcr';
+    scroll-behavior: smooth;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+h3{
+    color: white;
+
+}
+
+
+.Od{
+    margin-top: 120px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+body{
+    background-color: #014631;
+    margin: 0;
+}
+.tcr-img{
+height: 500px;
+}
+
+.banner-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 566px;
+    
+}
+
+.banner-card img{
+    height: 380px;
+    margin-top: -367px;
+    margin-left: 700px;
+}
+
+.banner-text{
+    top: 0;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.start{
+    scroll-behavior: smooth;
+    
+    font-size: 80px;
+}
+
+.Introductie{
+    flex-direction: column;
+    scroll-behavior: smooth;
+    padding-left: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+    max-width: 950px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: normal;
+}
+
+.kalender{
+    scroll-behavior: smooth;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px
+}
+
+.vrijdag{
+    font-weight: bolder;
+}
+.zaterdag{
+    font-weight: bolder;
+}
+.loca{
+    font-size: 70px;
+    margin-top: 100px;
+    display: flex;
+    margin-top: 15;
+    
+}
+
+.vrijdag, .zaterdag, .tijd{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+.plaats{
+    font-size: 22px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+
+.gebouwtcr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.gebouwtcr img {
+    height: 250px;
+    width: 500px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    display: flex;
+
+}
+.launch-time {
+    display: flex;
+    margin-left: 145px;
+}
+
+.launch-time div {
+    flex-basis: 100px;
+    margin-right: 40px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+}
+
+.launch-time div p {
+    font-size: 60px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+*{
+    margin: 0;
+}
+
+.navcont{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    background-color: #006345;
+    align-items: center;
+    width: 100%;
+    
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&display=swap');
+
+.aanmelden{
+    display: flex;
+    background-color: #DBFD4A;
+    padding: 15px 30px;
+    color: #014631;
+    border-radius: 8px;
+}
+ 
+.aanmelden:hover{
+    transition: 0.3s;
+    color: #014631;
+}
+a:hover{
+    transition: 0.3s;
+    color: #DBFD4A;
+}
+
+    
+.tcr-logo{
+    display: flex;
+    background-color: white;
+    height: 90px;
+    margin-left: 16px;
+    
+}
+
+
+
+
+#hoofd{
+    font-family: 'tcr';
+    scroll-behavior: smooth;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 16px 10px -1px 162px;
+}
+
+body{
+    background-color: #014631;
+    margin: 0;
+}
+
+#main {
+max-width: 1200px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 150px;
+background: navy;
+opacity: 75%;
+color: white;
+}
+
+label{
+    display: block;
+    margin: 18px 3px 10px 10px;
+}
+
+input {
+    width: 30px;
+    margin-left: 20px;
+    }
+    
+    button {
+    width: 100px;
+    margin-top: 30px;
+    }
+
+    button{
+        margin: 10px 10px 10px 3px;
+        background: #014631;
+        border-radius: 40px;
+        text-align: center;
+        font-size: 13px;
+        box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+        border: none;
+        outline: none;
+        width: 169px;
+        height: 63px;
+    }
+
+    #submit{
+        color: #dbfd4a;
+        font-family: 'Bebas Neue';
+        font-size: 30px;
+        margin: 10px 10px 10px 525px;
+    }
+
+    form {     
+    width: 1352px;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    margin: 12px;
+
+    }
+
+    .ja {
+        margin: 18px 10px -2px 13px;
+        font-size: 30px;
+
+    }
+
+    .nee {
+        margin: -38px 10px 25px 147px;
+        font-size: 30px;
+    }
+    .result {
+        font-family: 'Bebas Neue';
+        font-size: 40px;
+
+    }
+    @keyframes floatup {
+        from {
+            transform: translateY(14px);
+            opacity: .0;
+        }
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+/* CSS voor talenttree */
+
+.container {
+    position: relative;
+  }
+  
+  .box {
+    background-color: #3399FF;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    padding: 19px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0px;
+    width: 685px;
+    height: 11px;
+    gap: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  #box-2 {
+    background-color: #3f34a3 ;
+    color: #fff;
+  
+  }
+  
+  #box-3 {
+    background-color: #db4f3c;
+    color: #ffffff;
+  }
+  
+  #box-4 {
+    background-color: #e6e66d;
+    color: #000000;
+  
+  
+  }
+  
+  #box-5 {
+    background-color: #703fa1;
+    color: #fff;
+  
+  }
+  
+  #box-6 {
+    background-color: #b1522d;
+    color: #fff;
+  
+  }
+  
+  #box-7 {
+    background-color: #008080;
+    color: #fff;
+  
+  }
+  
+  #box-8 {
+    background-color: #a03d6e;
+    color: #f5f3f3;
+  
+  }
+  
+  #box-9 {
+    background-color: #aedb5a;
+    color: #000000;
+  
+  }
+  
+  #box-10 {
+    background-color: #bdaaaa;
+    color: #000000;
+    
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .connector {
+  
+  width: 2px;
+  height: 22px;
+  background-color: #5266c4;
+  margin: 0 auto;
+  }
+  
+  .talenttree {
+
+    margin:  65px 65px -90px 49px;
+
+  }
